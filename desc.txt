@@ -1,0 +1,11 @@
+https://eu1.rallydev.com/analytics/v2.0/service/rally/workspace/65088890229/artifact/snapshot/query.js
+
+{
+              "find": {
+                "ObjectID": 82378302577
+              },
+              "fields": ["State", "ScheduleState","_ValidFrom", "_ValidTo", "ObjectID", "FormattedID"],
+              "hydrate":["State","ScheduleState"],
+              "compress": false,
+              "pagesize": 2000
+            }
