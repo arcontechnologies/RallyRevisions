@@ -26,3 +26,12 @@ https://eu1.rallydev.com/analytics/v2.0/service/rally/workspace/65088890229/arti
   "compress": false,
   "pagesize": 2000
 }
+
+{
+  "find": {
+    "_ValidFrom": { "$lte": "2026-01-22T00:00:00.000Z" }
+  },
+  "fields": ["_TypeHierarchy", "FormattedID"],
+  "limit": 50,
+  "pagesize": 50
+}
