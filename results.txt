@@ -1,0 +1,54 @@
+{
+	"ETLDate": "2026-01-22T09:10:56.996Z",
+	"GeneratedQuery": {
+		"fields": {
+			"ObjectID": 1,
+			"State": 1,
+			"_ValidFrom": 1,
+			"_ValidTo": 1,
+			"ScheduleState": 1,
+			"Project": 1,
+			"_UnformattedID": 1,
+			"_TypeHierarchy": {
+				"$slice": -1
+			}
+		},
+		"find": {
+			"_TypeHierarchy": "Opus",
+			"_ValidFrom": {
+				"$lte": "2026-01-22T09:10:56.996Z"
+			}
+		},
+		"limit": 2000,
+		"skip": 0
+	},
+	"HasMore": false,
+	"PageSize": 2000,
+	"Results": [],
+	"StartIndex": 0,
+	"ThreadStats": {
+		"cpuTime": 112.77952885137887,
+		"waitTime": 418899,
+		"waitCount": 19,
+		"blockedTime": 0,
+		"blockedCount": 0
+	},
+	"Timings": {
+		"projectList": 43,
+		"authorization": 0,
+		"TOTAL": 108,
+		"allowedValuesDisambiguation": 6,
+		"suppressNonRequested": 0,
+		"allowedValuesHydration": 0,
+		"preProcess": 0,
+		"findEtlDate": 4,
+		"dbQuery": 2,
+		"FormattedID": 0,
+		"authentication": 53
+	},
+	"TotalResultCount": 0,
+	"Warnings": [],
+	"Errors": [],
+	"_rallyAPIMajor": 2,
+	"_rallyAPIMinor": 0
+}
