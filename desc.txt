@@ -9,3 +9,20 @@ https://eu1.rallydev.com/analytics/v2.0/service/rally/workspace/65088890229/arti
               "compress": false,
               "pagesize": 2000
             }
+
+{
+  "find": {
+    "_TypeHierarchy": "Opus"
+  },
+  "fields": [
+    "State",
+    "ScheduleState",
+    "_ValidFrom",
+    "_ValidTo",
+    "ObjectID",
+    "FormattedID"
+  ],
+  "hydrate": ["State", "ScheduleState"],
+  "compress": false,
+  "pagesize": 2000
+}
